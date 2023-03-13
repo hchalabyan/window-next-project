@@ -1,0 +1,15 @@
+.CustomButton{
+  width: 100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid var(--main-color);;
+  background: transparent;
+  cursor: pointer;
+  color: var(--main-color);
+
+
+}

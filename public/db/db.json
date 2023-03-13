@@ -1,0 +1,74 @@
+
+{
+  "data": [
+    {
+      "Material": [
+        {
+          "id": 0,
+          "value": "Wood",
+          "label": "Wood"
+        },
+        {
+          "id": 1,
+          "value": "Aluminum",
+          "label": "Aluminum"
+        },
+        {
+          "id": 2,
+          "value": "Vinyl",
+          "label": "Vinyl"
+        },
+        {
+          "id": 3,
+          "value": "Fiberglass",
+          "label": "Fiberglass"
+        }
+      ],
+      "Type": [
+        {
+          "id": 0,
+          "value": "Clear",
+          "label": "Clear"
+        },
+        {
+          "id": 1,
+          "value": "Frosted",
+          "label": "Frosted"
+        },
+        {
+          "id": 2,
+          "value": "Tinted",
+          "label": "Tinted"
+        },
+        {
+          "id": 3,
+          "value": "Low-E",
+          "label": "Low-E"
+
+        }
+      ],
+      "Color": [
+        {
+          "id": 0,
+          "value": "white",
+          "label": "white"
+        },
+        {
+          "id": 1,
+          "value": "black",
+          "label": "black"
+        },
+        {
+          "id": 2,
+          "value": "bronze",
+          "label": "bronze"
+        },
+        {
+          "id": 3,
+          "value": "silver",
+          "label": "silver"
+        }
+      ]
+    }]
+
+}

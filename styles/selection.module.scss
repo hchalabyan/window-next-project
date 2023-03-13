@@ -1,0 +1,38 @@
+.Selection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  h2{
+    margin-bottom: 20px;
+    color: var(--main-color);
+
+  }
+  .WindowOptions{
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    ul{
+      list-style-type: none;
+      color: var(--main-color);
+      span{
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px){
+  .Selection{
+    .WindowOptions{
+      width: 200px;
+      height: 200px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.Main{
+    padding: 10px 30px;
+    h2{
+        color:  var(--main-color);
+        padding: 20px 0;
+    }
+    .Form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .SelectWrapper{
+            flex: 0 0 32%;
+        }
+        .ButtonWrapper{
+            flex: 0 0 10%;
+            height: 30px;
+            margin-left: auto;
+            margin-top: 20px;
+            cursor: pointer;
+            min-width: 100px;
+        }
+    }
+
+}
+@media screen and (max-width: 992px){
+    .Main{
+        .Form{
+            flex-direction: column;
+            .ButtonWrapper{
+                flex: none;
+            }
+        }
+        h2{
+            text-align: center;
+        }
+    }
+
+}
