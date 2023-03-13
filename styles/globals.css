@@ -20,6 +20,7 @@ header{
 }
 footer{
   position: absolute;
+
   bottom: 5%;
   color: var(--main-color);
   left: 50%;
