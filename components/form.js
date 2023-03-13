@@ -4,8 +4,6 @@ import CustomButton from "@/components/customButton";
 import { useState } from "react";
 
 const Form = ({ options }) => {
-  console.log("nested options", options);
-
   const [selectedOption, setSelectedOption] = useState(null);
   const [storageData, setStorageData] = useState({
     material: "",
@@ -15,7 +13,6 @@ const Form = ({ options }) => {
 
   const handleSelect = (e, arg) => {
     setSelectedOption(e.value);
-    console.log("arg", arg);
     switch (arg.name) {
       case "Material":
         setStorageData((prev) => ({
@@ -46,7 +43,6 @@ const Form = ({ options }) => {
     <form className={classes.Form} onSubmit={handleSubmit}>
       {Object.keys(options[0]).map((key) => {
         let item = options[0][key];
-        console.log("item", item);
         return (
           <div className={classes.SelectWrapper} key={key}>
             <CustomSelect

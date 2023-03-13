@@ -1,8 +1,7 @@
 import classes from "../styles/selection.module.scss";
 import { useEffect, useState } from "react";
 
-const Selection = ({ posts }) => {
-  console.log("posts", posts);
+const Selection = () => {
   const [options, setOptions] = useState({});
   useEffect(() => {
     let data = JSON.parse(window.localStorage.getItem("windowOptions"));
