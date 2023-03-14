@@ -47,7 +47,7 @@ const Form = ({ options }) => {
           <div className={classes.SelectWrapper} key={key}>
             <CustomSelect
               text={key}
-              id={item.id}
+              id={key}
               options={item}
               name={key}
               handleSelect={handleSelect}

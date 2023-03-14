@@ -12,7 +12,7 @@ const CustomSelect = ({
     <div className={classes.Select}>
       <p>{text}</p>
       <Select
-        id={id}
+        instanceId={id}
         value={selectedOption}
         onChange={handleSelect}
         options={options}
